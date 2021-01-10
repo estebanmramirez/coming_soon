@@ -82,6 +82,7 @@ html {
     background-color: var(--gradients-first);
     border: 1px solid var(--desatured-red);
     padding-left: 20px;
+    
 }
 
 ::placeholder {
@@ -110,6 +111,21 @@ html {
     bottom: 49px;
     z-index: 2;
 }
+
+/*-------hover------*/
+
+.form__input:hover {
+    cursor: pointer;
+}
+
+.form__button:hover {
+    cursor: pointer;
+}
+
+.header__logo:hover {
+    cursor: pointer;
+}
+
 
 
 
