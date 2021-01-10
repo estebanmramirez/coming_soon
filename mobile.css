@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --desatured-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --grayish-red: hsla(0, 7%, 45%, 0.932);
+    --gradients-first: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    --gradients-second: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    --font-family: 'Josefin Sans', sans-serif;
+}
+
+/*------------------*/
+
+.header{
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.header__logo{
+    width:  130px;
+    height: 30px;
+}
+
+/*--------Contenedor Main--------*/
+
+.main {
+    background-image: var(--gradients-first);
+    height: 100%;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+.container__h2 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+    color: var(--desatured-red);
+    letter-spacing: 7px;
+}
+
+.container__h2 span {
+    color: black;
+    font-weight: bold;
+}
+
+.container__p {
+    text-align: center;
+    color: var(--desatured-red);
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    font-weight: lighter;
+    padding: 0 20px 0 20px;
+}
+
+/*--------Formulario ----------- */
+
+.form {
+    padding: 0 20px 0 20px;
+    width: 100%;
+    margin-top: 30px;
+    font-family: var(--font-family);
+    
+}
+
+.form__input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--gradients-first);
+    border: 1px solid var(--desatured-red);
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: var(--desatured-red); 
+    font-family: var(--font-family);
+}
+
+/*--------Button-----*/
+
+.form__button {
+    height: 40px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-image: var(--gradients-second);
+    position: relative;
+    z-index: 1;
+    left: 275px;
+    bottom: 40px;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.form__arrow {
+    position: relative;
+    left: 238px;
+    bottom: 49px;
+    z-index: 2;
+}
+
+
+
+
