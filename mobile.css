@@ -21,7 +21,7 @@ html {
 
 .header{
     height: 50px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
@@ -38,18 +38,13 @@ html {
 }
 
 .main__figure{
-    width: 100%;
-}
-
-/*
-.main__img {
     background-image: url('./images/hero-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
-*/
+
 .container {
     padding-top: 40px;
 }
@@ -84,8 +79,7 @@ html {
     padding: 0 20px 0 20px;
     width: 100%;
     margin-top: 30px;
-    font-family: var(--font-family);
-    
+    font-family: var(--font-family); 
 }
 
 .form__input {
