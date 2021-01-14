@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width: 475px)"/>
+    <link rel="stylesheet" href="laptop.css" media="screen and (min-device-width:900px)"/>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="logo_pagina">
+    </header>
+
+    <main class="main">
+
+        <figure class="main__figure">
+            <img class="main__figure--img">
+        </figure>
+
+        <section class="container">
+            <h2 class="container__h2">WE'RE<br><span>COMING <br> SOON</span></h2>
+            <p class="container__p">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcement and our launch deals</p>
+        </section>
+
+        <form class="form">
+            <input id="write" onmouseover="formulario()" class="form__input" type="email" placeholder="Email Address" required>
+            <button id="submit" onclick="input()" class="form__button"></button>
+            <img class="form__arrow" src="images/icon-arrow.svg">
+        </form>
+    </main>
+
+</body>
+</html>
